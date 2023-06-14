@@ -280,6 +280,7 @@ a:hover{
   }
     .walpaper{
        background-position: -38px 5rem;
+            background-repeat: round;
     }
    
 }
