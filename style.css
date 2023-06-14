@@ -206,11 +206,6 @@ a:hover{
 
 
 
-@keyframes slay{
-    from{
-
-    }
-}
 
 
 
@@ -281,4 +276,7 @@ a:hover{
     border-bottom: 1px solid #ffff; 
   
   }
+   .personel p{ 
+    font-size:1.4rem;
+    }
 }
