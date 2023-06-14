@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    font-size: 10px;
+}
+body{
+    background-color: #22272e;
+    color: #ffff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+   
+     width: 80%;
+}
+    .list ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+    list-style: none;
+}
+.list ul li {
+    display:inline-block;
+    padding: 1rem;
+    font-size: 2.2rem;
+    color: #fff;
+    
+    margin-right: 2rem;
+    border-radius: 2px;
+    
+}
+.list ul li a{
+    color: #fff;
+    display: block;
+}
+.navbar-wid{
+   border-bottom: 1px solid #ffff;;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 111;
+   background-color: #22272e;
+}
+.logo i{
+    display: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    
+}
+.personel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    font-size: 1.8rem;
+    
+}
+.personel img{
+    border-radius: 50%;
+    border: 2px solid red;
+    width: 10rem;
+}
+.personel p{
+ padding: 2rem;
+ word-spacing: 0.5rem;
+ 
+}
+h1{
+   text-align: center;
+   font-size: 4rem;
+   animation-name: trans;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+}
+.main-column{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 9rem;
+    margin-top: 2rem;
+    margin-bottom: 20rem;
+
+    
+}
+.column{
+    border: 1px solid #ffff;
+    height: 20rem;
+    
+    border-radius: 1.5rem;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0.2, 0.2, 0.2, 0.2), 0 6px 20px 0 rgba(253, 253, 253, 0.19);
+  
+    
+  
+}
+.column:hover{
+   opacity: 0.5; 
+   transition: 0.3s ease-in-out;
+}
+h2{
+    font-size: 2rem;
+  
+}
+.column-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 10px;
+    position: absolute;
+    top: 30%;
+    
+   
+    
+}
+
+.column a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: red;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.right-rotain i {
+
+   margin-right: 3px;
+   
+  
+}
+.rotain{
+    margin-right: 2rem;
+}
+.project{
+    margin-top: 5rem;
+  
+}
+.walpaper{
+    background-image: url(doğukanbalaban.png);
+    height: 30rem;
+    display: block;
+    position: relative;
+    background-position:  0 5rem;
+    
+    
+    background-size:contain;
+}
+a{
+    padding-bottom: 0.3rem;
+}
+a:hover{
+    opacity: 0.5;
+    
+    border-bottom: 1px solid #ffff;
+
+    transition: all 0.3s ease-in-out;
+ 
+
+}
+
+.contact{
+    text-align: center;
+    padding: 5rem;
+    border-top: 1px solid #ffff;
+   
+   
+
+}
+.contact div{
+    margin-top: 3rem;
+    font-size:2rem;
+}
+.contact a {
+    color: #ffff;
+    font-weight: bold;
+}
+.contact i {
+    padding: 0 2rem;
+}
+
+.contact  a:hover {
+    border-bottom: none;
+  
+}
+.footer{
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 1.5rem;
+    font-weight: bolder;
+    border-top: 1px solid #ffff;
+    box-shadow: 0 4px 8px 0 rgba(0.2, 0.2, 0.2, 0.2), 0 6px 20px 0 rgba(253, 253, 253, 0.19);
+}
+
+
+
+
+@keyframes slay{
+    from{
+
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    html{
+        font-size: 8px;
+    }
+    .navbar{
+        display: block;
+        
+        width: 100%;
+       
+    }
+    .list ul{
+        display: block;
+        margin: auto;
+        text-align: center;
+        
+    }
+    .list ul li {
+        display:block;
+        padding: 1rem;
+        font-size: 2.2rem;
+        color: #fff;
+        padding: 3rem;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;        
+    }
+    .logo i {
+        display: block;
+        margin-right: 20px;
+        font-size: 3.5rem;
+    }
+   .list{
+    display: none;
+   }
+   .active{
+
+    display: block;
+   }
+   .personel img{
+    border-radius: 50%;
+    border: 1px solid red;
+    width: 9rem;}
+    
+    .personel{
+        width: 100%;
+        font-size: 1.6rem;
+    }
+    .container{
+        width: 100%;
+    }
+    .main-column{
+        display: block;
+        
+    }
+  .column{
+    border:none ;
+    border-bottom: 1px solid #ffff; 
+  
+  }
+}
